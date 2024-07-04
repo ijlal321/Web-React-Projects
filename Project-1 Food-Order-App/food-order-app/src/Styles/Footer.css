@@ -1,0 +1,23 @@
+.Footer-Items svg  {
+    font-size: 70px; /* Adjust the font size as needed */
+    margin-right: 10px; /* Adjust margin or other styles as needed */
+    display: inline-block;
+}
+
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.CopyRight-container{
+    display: flex;
+    justify-content: center;
+}
+
+

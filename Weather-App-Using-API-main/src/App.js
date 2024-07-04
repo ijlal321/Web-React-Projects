@@ -1,12 +1,10 @@
-
-import React from "react";
-import Navbar from "./Navbar";
-
+import "./App.css";
+import SearchMain from "./components/searchMain";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <SearchMain />
     </div>
   );
 }

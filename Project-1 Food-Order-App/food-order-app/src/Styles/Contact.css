@@ -1,0 +1,50 @@
+.Contact {
+    display: flex;
+}
+
+.Contact .left-container,
+.Contact .right-container {
+    flex: 1;
+    /* Ensure containers take up equal space */
+}
+
+.Contact .left-container {
+    position: relative;
+    /* Ensure position context for absolute positioning */
+    overflow: hidden;
+    /* Hide any overflow content */
+    border: 2px solid black;
+    /* Example border styling */
+    margin-left: 0px;
+}
+
+.Contact .left-container img {
+    width: 100%;
+    /* Ensure the image takes up full width of container */
+    height: 100%;
+    /* Ensure the image takes up full height of container */
+    object-fit: cover;
+    /* Cover the entire container, maintaining aspect ratio */
+    object-position: center;
+    /* Center the image within the container */
+}
+
+.Contact .right-container {
+    /* Optional: Add styles as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    /* max-width: 80%; */
+}
+
+
+.Contact .right-container p {
+    max-width: 80%;
+}
+
+.right-container form {
+
+    justify-content: space-between;
+}

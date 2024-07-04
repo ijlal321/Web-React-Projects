@@ -1,0 +1,16 @@
+.Card{
+
+    width: 300px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: solid black 5px;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 2%;
+}
+
+.Card img{
+    width: 100%; /* Image takes full width of container */
+    height: 60%; /* Image takes full height of container */
+    object-fit: cover; /* Maintain aspect ratio; crop as needed */
+}

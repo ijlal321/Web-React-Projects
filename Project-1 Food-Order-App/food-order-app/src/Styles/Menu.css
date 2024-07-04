@@ -1,0 +1,9 @@
+.Menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Menu-title{
+    text-align: center;
+}
