@@ -1,0 +1,64 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Distributes children to the start and end of the flex container */
+    align-items: center;
+    background-color: antiquewhite;
+    height: 80px;
+    padding-left: 0px;
+}
+
+.left-container>img {
+    width: 60px;
+    height: auto;
+    padding-left: 15%;
+    background-color: transparent;
+}
+
+
+
+.left-container {
+    flex: 2;
+    text-align: center;
+}
+
+.right-container {
+    flex: 4;
+}
+
+.Nav-Bar-Linkers {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.hide-on-mobile{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 800px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .right-container {
+        flex: 2;
+    }
+    .left-container {
+        flex: 6;
+        text-align: left;
+    }
+
+}
+
+
+/* Responsive styles for larger screens */
+@media (min-width: 800px) {
+    .right-button {
+        display: none;
+    }
+}
