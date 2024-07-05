@@ -1,0 +1,17 @@
+.WeatherCardMiddle{
+    display: flex;
+    height: 100%;
+
+}
+
+.WeatherCardMiddle > *{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.WeatherCardMiddle > .col-3{
+    background-color: white;
+}

@@ -1,0 +1,18 @@
+.SearchBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.SearchBar input{
+    width: 25%;
+}
+
+.SearchBar > .inner-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

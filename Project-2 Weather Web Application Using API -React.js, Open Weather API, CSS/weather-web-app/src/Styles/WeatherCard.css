@@ -1,0 +1,33 @@
+.WeatherCard{
+    display: flex;
+    justify-content: center;
+}
+
+.Card{
+    border: solid black 2px;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.WeatherCard .Card .img-area{
+    flex: 3;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.WeatherCard .Card .img-area .wi{
+    font-size: 5rem;
+}
+
+.WeatherCard .Card .middle-area{
+    flex: 2.5;
+}
+
+
+
+.WeatherCard .Card .bottom-area{
+    flex: 1.5;
+}
