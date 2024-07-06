@@ -1,0 +1,11 @@
+.SearchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    gap: 5px;
+}
+
+.SearchArea input{
+    width: 300px;
+}
