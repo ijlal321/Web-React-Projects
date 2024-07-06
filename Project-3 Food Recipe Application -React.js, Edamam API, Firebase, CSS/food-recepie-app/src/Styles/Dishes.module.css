@@ -1,0 +1,26 @@
+.Dishes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.DishesContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .Dishes > *{
+        flex: 1 1 100%; /* Each item takes up full width of its container */
+    }
+
+    .Dishes{
+        width: 400px;
+    }
+  }

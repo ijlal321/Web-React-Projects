@@ -1,0 +1,46 @@
+
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    width: 300px;
+    border: solid black 2px;
+    height: 400px;
+    overflow: hidden; /* Hide any overflow */
+}
+
+
+.Card > img{
+    flex:3;
+    width: 100%; /* Take full width of container */
+    object-fit: cover; /* Cover container area */
+
+}
+
+.CardInfo{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CardInfo >* {
+    margin: 0px 0px;
+}
+
+
+@media (max-width: 768px) {
+    
+      .Card > img {
+        height: 70%; /* Adjust height of image on mobile */
+        flex: 1; /* Reset flex value for image */
+      }
+    
+      .CardInfo {
+        flex: 1; /* Reset flex value for CardInfo */
+        padding: 10px; /* Add padding or margin for spacing */
+      }
+  }

@@ -9,14 +9,14 @@ function App() {
   const apiKey = "5e742556e4bb39ed18e52d45fab53f89";
   const apiId = "9d4d7499";
 
-  const apiUrl = `https://api.edamam.com/api/recipes/v2?q=chicken&type=any&app_id=${apiId}&app_key=${apiKey}`;
 
 
   const [recepieData, setRecepieData] = useState(null);
   const [curDataCondition, setcurDataCondition] = useState("enter ingredients and click on search");
 
 
-  async function fetchData() {
+  async function fetchData(ingredient, health) {
+    const apiUrl = `https://api.edamam.com/api/recipes/v2?q=${ingredient}&type=any&app_id=${apiId}&app_key=${apiKey}&health=${health}`;
     setcurDataCondition("Loading");
     try {
       const response = await fetch(apiUrl);
@@ -25,7 +25,7 @@ function App() {
       }
       const data = await response.json();
       setRecepieData(data);
-      if (data) {
+      if (data.hits.length > 0) {
         setcurDataCondition("LoadSuccessful");
       }
       else {
@@ -46,7 +46,8 @@ function App() {
 
       {curDataCondition === "LoadSuccessful" ? (
         <Dishes recepieData={recepieData} />
-      ) : (<div className='curDataCondition'><h1>{curDataCondition}</h1></div>)}
+      ) 
+      :(<div className='curDataCondition'><h1>{curDataCondition}</h1></div>)}
 
 
     </div >
