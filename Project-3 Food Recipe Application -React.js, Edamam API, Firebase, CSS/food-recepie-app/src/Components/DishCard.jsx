@@ -8,7 +8,9 @@ const DishCard = ({ recepie }) => {
     };
     return (
         <div className={Styles.Card} onClick={openRecipeLink}>
-            <img src={recepie.image} alt='food img' />
+            <div className={Styles.imgContainer}>
+                <img src={recepie.image} alt='food img' />
+            </div>
             <div className={Styles.CardInfo}>
                 <p>{recepie.calories} </p>
                 <p>{recepie.dishType}</p>
