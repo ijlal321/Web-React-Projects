@@ -1,0 +1,10 @@
+.HistoryItem{
+    width: 100%;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HistoryItem > * {
+    padding: 10px;
+}
