@@ -10,10 +10,11 @@
 }
 
 .Cart{
-
+    position: relative;
 }
 
 .NrItems{
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 1%;
+    right: -30%;
 }

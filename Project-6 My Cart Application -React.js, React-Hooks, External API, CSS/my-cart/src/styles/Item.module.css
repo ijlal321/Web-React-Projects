@@ -1,0 +1,28 @@
+.Item{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid black 2px;
+    align-items: center;
+    height: 20vh;
+
+}
+.Item img {
+    flex: 1;
+    height: 150px;
+    width: auto;
+}
+
+.InfoContainer{
+    flex: 6;
+    padding-left: 30px;
+    justify-content: flex-start;
+}
+
+.QuantityContainer{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
