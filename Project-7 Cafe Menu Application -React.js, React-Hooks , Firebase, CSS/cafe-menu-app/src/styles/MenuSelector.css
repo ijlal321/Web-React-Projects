@@ -1,0 +1,13 @@
+.MenuSelector{
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filter-btn{
+    border: none;
+    background-color: inherit;
+    font-size: 20px;
+}

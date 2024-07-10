@@ -1,0 +1,7 @@
+.FoodMenu{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}

@@ -1,0 +1,22 @@
+.Food{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+}
+
+.img{
+    overflow: hidden;
+}
+.Food img{
+    min-width: 100%;
+    height: 200px;
+}
+
+.info{
+    padding-right: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
