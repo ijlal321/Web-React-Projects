@@ -1,0 +1,43 @@
+1
+00:00:00,270 --> 00:00:02,400
+So Industrial will be learning about React.
+
+2
+00:00:02,730 --> 00:00:09,000
+Its hooks, how two minutes deep with hooks will be getting our data from API, as well as we'll learn
+
+3
+00:00:09,000 --> 00:00:09,930
+how to manage state.
+
+4
+00:00:10,290 --> 00:00:14,670
+And at the end of the tutorial, we'll be deploying it up on the Heroku server.
+
+5
+00:00:15,150 --> 00:00:17,270
+So let's take a tour around that app.
+
+6
+00:00:17,280 --> 00:00:20,070
+So basically, it's a tool to step in this project.
+
+7
+00:00:20,070 --> 00:00:25,800
+People can be in different places with their details as well as their pricing, and if they are not
+
+8
+00:00:25,800 --> 00:00:28,590
+invested in that particular place, they can remove that from their UI.
+
+9
+00:00:29,100 --> 00:00:36,060
+And if we will get a new set of leaders, so this is all about the ad that we're making, though it
+
+10
+00:00:36,060 --> 00:00:41,490
+may not seem as very much, but believe me, you'll be learning quite helpful concepts and react that
+
+11
+00:00:41,490 --> 00:00:43,230
+will be helping you in the future applications.

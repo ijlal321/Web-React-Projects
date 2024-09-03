@@ -1,0 +1,363 @@
+1
+00:00:00,510 --> 00:00:03,810
+So now that our app is completely ready, it's time for deployment.
+
+2
+00:00:04,110 --> 00:00:06,000
+So where are we going to deploy our app?
+
+3
+00:00:06,300 --> 00:00:07,500
+But app on the head?
+
+4
+00:00:07,510 --> 00:00:12,270
+Ocasek, head of the cloud platform, as a service supporting several programming languages.
+
+5
+00:00:12,270 --> 00:00:16,290
+So we are going to deploy it app on this server.
+
+6
+00:00:16,680 --> 00:00:20,520
+And there is a catch to it will have to actually add up a battery pack.
+
+7
+00:00:20,910 --> 00:00:22,150
+So let's just move into how to go.
+
+8
+00:00:22,380 --> 00:00:27,300
+It's totally free app, so all you need to do is actually just log in with it and it will give you your
+
+9
+00:00:27,300 --> 00:00:29,330
+dashboard as you can see mine.
+
+10
+00:00:31,990 --> 00:00:38,470
+So once you reach on a dashboard, just click on New to create a new app and create a new app.
+
+11
+00:00:39,250 --> 00:00:41,420
+After that, you'll have to enter the name of the app.
+
+12
+00:00:41,890 --> 00:00:45,040
+So let's limit driver's.
+
+13
+00:00:47,050 --> 00:00:54,010
+So let's name it travels, so if we see this name is not available travel, so let's just name it travel
+
+14
+00:00:54,010 --> 00:00:54,430
+list.
+
+15
+00:00:58,040 --> 00:00:58,330
+App.
+
+16
+00:01:00,520 --> 00:01:05,620
+So our travel list app is name is available, so let's just create our app and prior to trading windows,
+
+17
+00:01:05,620 --> 00:01:07,040
+choose the region nearest to you.
+
+18
+00:01:07,060 --> 00:01:09,850
+For me, it's here, maybe for you, with my United States.
+
+19
+00:01:10,210 --> 00:01:13,570
+And if it's your idea and just do it and click on create new app.
+
+20
+00:01:18,680 --> 00:01:20,390
+So now here is that dashboard.
+
+21
+00:01:21,020 --> 00:01:26,420
+So we're going to deploy our app, so there are three ways in which they actually deploy our app to
+
+22
+00:01:26,870 --> 00:01:31,480
+adequacy or through up through containing registry that is again, Erghezi.
+
+23
+00:01:32,090 --> 00:01:34,100
+So they'll be using the GitHub option.
+
+24
+00:01:34,190 --> 00:01:35,240
+So just move to a GitHub.
+
+25
+00:01:36,530 --> 00:01:40,360
+Now we need to have our code inside our GitHub repository.
+
+26
+00:01:40,390 --> 00:01:47,290
+The first thing that will do is move into our data repository and let's just go to our guitar.
+
+27
+00:01:48,600 --> 00:01:53,010
+And we're pushing hard core into this, so for that purpose, let's create a new new repository.
+
+28
+00:01:54,290 --> 00:01:55,580
+And once you do this.
+
+29
+00:01:57,810 --> 00:02:00,780
+OK, so the name of my repository is going to be travels.
+
+30
+00:02:02,520 --> 00:02:03,300
+It can be anything.
+
+31
+00:02:03,630 --> 00:02:06,060
+There is no restriction on the name, you can actually name it anything.
+
+32
+00:02:06,340 --> 00:02:11,520
+So I'm just naming it travels and it is available, then it is going to a public repository and then
+
+33
+00:02:11,520 --> 00:02:12,660
+just create a repository.
+
+34
+00:02:16,580 --> 00:02:20,840
+No one's about the trees created, and I will be pushing out code into this, so if you haven't done
+
+35
+00:02:20,840 --> 00:02:23,390
+this before, you just follow along with me.
+
+36
+00:02:23,750 --> 00:02:25,160
+Just get initialized at app.
+
+37
+00:02:25,430 --> 00:02:29,900
+So just move into your source code and open a terminal.
+
+38
+00:02:32,860 --> 00:02:34,060
+Not just getting attacked.
+
+39
+00:02:36,630 --> 00:02:38,010
+We just get in it.
+
+40
+00:02:43,020 --> 00:02:43,890
+And then hit enter.
+
+41
+00:02:54,750 --> 00:02:56,740
+So a repository has been initialized.
+
+42
+00:02:56,760 --> 00:03:01,440
+Now let's move back and see what the next command is, he won't be adding Read me because it is already
+
+43
+00:03:01,440 --> 00:03:05,700
+available in our app and will make it the first commit.
+
+44
+00:03:05,730 --> 00:03:08,280
+So just copy this, come on and again, paste it in our.
+
+45
+00:03:09,520 --> 00:03:09,810
+Mean.
+
+46
+00:03:11,490 --> 00:03:12,570
+And then just hit enter.
+
+47
+00:03:14,750 --> 00:03:20,180
+OK, so we have to just first added, get ad space and a period.
+
+48
+00:03:55,370 --> 00:04:00,950
+So again, it is not OK, you know, the next command is.
+
+49
+00:04:02,120 --> 00:04:06,230
+Get real adding remote building, the address on which it has to be pushed.
+
+50
+00:04:06,650 --> 00:04:07,760
+So we just moved back.
+
+51
+00:04:07,760 --> 00:04:10,460
+Phil Gordon paste the following command.
+
+52
+00:04:11,880 --> 00:04:13,470
+OK, you have ordered Origin to adapt.
+
+53
+00:04:13,800 --> 00:04:16,440
+Now we're really pushing code to get.
+
+54
+00:04:19,780 --> 00:04:22,630
+So then again, pasted and hit into.
+
+55
+00:04:25,950 --> 00:04:28,590
+No, this is going to push our app into our data repository.
+
+56
+00:04:29,050 --> 00:04:33,960
+There are going to get up and let's just move back and refresh this page.
+
+57
+00:04:36,530 --> 00:04:37,580
+So if you refresh it.
+
+58
+00:04:45,590 --> 00:04:49,340
+You'll see your source code here, as well as the red meat already added with it.
+
+59
+00:04:50,030 --> 00:04:57,110
+Now we have a repository right here, so let's just move back into ahead of UCLA and search for all
+
+60
+00:04:57,110 --> 00:04:58,460
+the repositories that we have.
+
+61
+00:04:59,540 --> 00:05:03,380
+So we're here, we're having all the repositories, so the name of our repository travels, right?
+
+62
+00:05:03,710 --> 00:05:06,140
+So just search for travelers.
+
+63
+00:05:11,360 --> 00:05:14,390
+So here we have a repository, just connectivity.
+
+64
+00:05:15,410 --> 00:05:16,520
+So no one's connected.
+
+65
+00:05:19,190 --> 00:05:24,440
+Just wait for Clia to pass before deploying and Will automatically applies.
+
+66
+00:05:25,160 --> 00:05:28,730
+And before we deploy our branch, we need to add a battery pack to it.
+
+67
+00:05:29,030 --> 00:05:30,770
+So just moving to your settings.
+
+68
+00:05:32,580 --> 00:05:37,200
+And just scroll down and here have to add a belt back for our React app.
+
+69
+00:05:37,470 --> 00:05:39,450
+So for this purpose, we will just move.
+
+70
+00:05:39,830 --> 00:05:41,100
+We very back.
+
+71
+00:05:41,400 --> 00:05:44,340
+And this is the address of the fact that we're going to copy.
+
+72
+00:05:45,360 --> 00:05:48,780
+So we'll have to paste this link into our belt back option.
+
+73
+00:05:49,080 --> 00:05:53,190
+So if you want to search for it manually, do I provided you in the links?
+
+74
+00:05:53,670 --> 00:05:55,800
+All you have to do is search for a remarkable pack
+
+75
+00:05:59,250 --> 00:06:00,690
+rat pack edible.
+
+76
+00:06:01,170 --> 00:06:10,260
+And this will take you to the next go to get educated about with the Link Create reactor and this is
+
+77
+00:06:10,260 --> 00:06:12,660
+your link which you want to page with you.
+
+78
+00:06:12,870 --> 00:06:14,310
+So just copy this link.
+
+79
+00:06:15,610 --> 00:06:20,680
+And move back into your travel list dashboard and click on Add Back.
+
+80
+00:06:22,530 --> 00:06:27,330
+And paste your link over here and there and just see if changes.
+
+81
+00:06:28,440 --> 00:06:33,030
+So now you see a problem saying that you are better power configurations will be used when the app is
+
+82
+00:06:33,030 --> 00:06:33,840
+next deployed.
+
+83
+00:06:34,200 --> 00:06:36,420
+So now let's just again move back into our deploying.
+
+84
+00:06:38,390 --> 00:06:41,510
+And now we'll just click on Deploy, everything has been set up.
+
+85
+00:06:41,770 --> 00:06:43,940
+And I just click on Deploy and it is going to take some time.
+
+86
+00:06:44,330 --> 00:06:46,520
+And after Nadia, we deployed.
+
+87
+00:06:54,280 --> 00:06:58,210
+So now that our app has been deployed, let's view Add app, you can see this view button.
+
+88
+00:06:58,510 --> 00:06:59,320
+Just click on it.
+
+89
+00:07:05,150 --> 00:07:06,380
+And it will open it up.
+
+90
+00:07:07,280 --> 00:07:10,050
+OK, so here is a wrap and it has been successfully deployed.
+
+91
+00:07:10,130 --> 00:07:14,660
+Now anyone from around the world can just access it with this utterly.

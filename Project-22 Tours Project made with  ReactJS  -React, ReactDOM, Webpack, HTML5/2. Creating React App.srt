@@ -1,0 +1,39 @@
+1
+00:00:04,630 --> 00:00:08,500
+I know we haven't discussed react yet, but it is helpful to have an up alongside.
+
+2
+00:00:08,680 --> 00:00:12,850
+So just turn the command and create React app, followed by the name of your app.
+
+3
+00:00:13,180 --> 00:00:16,990
+So now what if I decided to have an uppercase that in my the name of my app?
+
+4
+00:00:17,620 --> 00:00:18,760
+What is it is going to do?
+
+5
+00:00:18,760 --> 00:00:20,140
+It is going to throw an error to me?
+
+6
+00:00:26,780 --> 00:00:29,570
+Stating that the name of the app cannot contain a capital letter.
+
+7
+00:00:35,160 --> 00:00:37,950
+So to give up a simple limo just travels.
+
+8
+00:00:46,030 --> 00:00:50,560
+Now creating a that takes certain amount of time, so I'll be fast forwarding the rules so that you
+
+9
+00:00:50,560 --> 00:00:54,070
+can actually see what is happening in my screen and compare it with yours.
+
+10
+00:00:54,490 --> 00:00:57,010
+So once the app is created, then we will move forward.

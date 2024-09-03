@@ -1,0 +1,443 @@
+1
+00:00:00,300 --> 00:00:04,410
+So now we'll be adding another component to add up, and this is going to be a loading campaign that
+
+2
+00:00:04,410 --> 00:00:07,170
+is going to show up every time an app is being loaded.
+
+3
+00:00:07,620 --> 00:00:14,010
+So for that purpose, inside tools for level making another company known as loading stodgy ASX.
+
+4
+00:00:15,510 --> 00:00:17,970
+And once we made, let's just move into that world of.
+
+5
+00:00:19,410 --> 00:00:20,730
+Loading, it's not Jesus.
+
+6
+00:00:21,180 --> 00:00:28,410
+And then as we move into this folder, the first step is to import and react, react from the atmosphere.
+
+7
+00:00:29,010 --> 00:00:30,930
+So just import, react from react.
+
+8
+00:00:36,020 --> 00:00:39,440
+And now we'll be creating a functional component concert.
+
+9
+00:00:41,400 --> 00:00:42,730
+Concert loading.
+
+10
+00:00:45,720 --> 00:00:47,400
+That is an out of function.
+
+11
+00:00:47,850 --> 00:00:49,590
+And that's just exported.
+
+12
+00:00:50,570 --> 00:00:54,440
+Otherwise it would be of no use to us export default and loadings.
+
+13
+00:00:55,410 --> 00:00:55,890
+And.
+
+14
+00:00:57,090 --> 00:01:00,390
+They put up a written statement in a functional component.
+
+15
+00:01:02,040 --> 00:01:03,030
+So it just return.
+
+16
+00:01:06,630 --> 00:01:12,030
+Now it is going to have a dearth of class name loading.
+
+17
+00:01:16,250 --> 00:01:17,000
+And.
+
+18
+00:01:17,870 --> 00:01:22,790
+No, it has to have a closing or closing tax, so let's just close it.
+
+19
+00:01:23,960 --> 00:01:24,380
+There.
+
+20
+00:01:25,350 --> 00:01:32,220
+It into now will have an edge forward heading, which is going to have which is going to have the words
+
+21
+00:01:32,220 --> 00:01:37,890
+loading and no, let's just make it one because it would be way too small.
+
+22
+00:01:39,860 --> 00:01:42,920
+And let's move to our dashboard and inside our dashboard.
+
+23
+00:01:43,420 --> 00:01:50,390
+Be making another bizarre state, and this is going to be a learning piece of state and city learning
+
+24
+00:01:50,420 --> 00:01:51,230
+as a setup function.
+
+25
+00:01:51,590 --> 00:01:54,650
+And initially, we want that loading to be true.
+
+26
+00:01:54,680 --> 00:02:00,680
+So just use state and the default value of the loading is going to be true and we'll be putting up if
+
+27
+00:02:00,680 --> 00:02:02,480
+statement after this.
+
+28
+00:02:03,410 --> 00:02:09,730
+So we have a loading as well as sector loading and default status too.
+
+29
+00:02:10,220 --> 00:02:18,950
+So just beneath our use effect and just above in a written statement, just if learning is true, then
+
+30
+00:02:18,950 --> 00:02:21,050
+we want it to return.
+
+31
+00:02:26,900 --> 00:02:27,800
+These are fragment.
+
+32
+00:02:29,710 --> 00:02:35,710
+Inside, this will be passing and importing allerdings component armados folder, so learning.
+
+33
+00:02:37,830 --> 00:02:38,880
+And let's close it.
+
+34
+00:02:39,300 --> 00:02:41,790
+It must have been at all important.
+
+35
+00:02:42,360 --> 00:02:45,690
+Yeah, it is now in another statement.
+
+36
+00:02:45,960 --> 00:02:53,380
+And this is going to state that if loading the land, no, it should be left to his department.
+
+37
+00:02:54,240 --> 00:03:00,240
+Let's just move this if those dirt land, you can equal to zero.
+
+38
+00:03:01,800 --> 00:03:05,070
+If those Deutschland Tripoli votes to zero.
+
+39
+00:03:07,570 --> 00:03:13,770
+Then what we want, what we want is that we will just put up a written statement and inside this and
+
+40
+00:03:13,780 --> 00:03:20,860
+incident will have a man inside this man will put up a different last name, Typekit.
+
+41
+00:03:22,950 --> 00:03:30,540
+And what really is going to hold it is going to hold an edge to that of a reef not always available.
+
+42
+00:03:31,990 --> 00:03:34,540
+And after this is true, dad will make up a button element.
+
+43
+00:03:37,690 --> 00:03:39,070
+Of class name between.
+
+44
+00:03:42,570 --> 00:03:49,500
+Median and on click whenever this button is collectively what we want function to refresh our up.
+
+45
+00:03:50,900 --> 00:03:53,490
+So give it an arrow function, and we'll be calling.
+
+46
+00:03:54,290 --> 00:03:54,770
+Get.
+
+47
+00:03:56,220 --> 00:03:57,390
+We'll be calling our function.
+
+48
+00:03:58,740 --> 00:04:00,360
+Which is get.
+
+49
+00:04:01,570 --> 00:04:02,080
+Those.
+
+50
+00:04:05,450 --> 00:04:11,780
+So what this basically is going to do that if it does, if it happens that we are getting no amount
+
+51
+00:04:11,780 --> 00:04:16,880
+of data from our API, so what we are going to do is it's going to refresh so that we can actually press
+
+52
+00:04:16,890 --> 00:04:17,690
+that data again.
+
+53
+00:04:18,500 --> 00:04:19,790
+So then just head to.
+
+54
+00:04:22,250 --> 00:04:26,990
+OK, now there's a bit of more tweaking that we need to do.
+
+55
+00:04:27,470 --> 00:04:33,920
+Just beneath our response or just resetting our loading equals too fast because if an app is going to
+
+56
+00:04:33,920 --> 00:04:40,880
+reach our response to our Jason, that means if I 179, that means we have successfully downloaded the
+
+57
+00:04:40,880 --> 00:04:44,750
+data and now the sideloading is supposed to return.
+
+58
+00:04:44,750 --> 00:04:45,170
+False.
+
+59
+00:04:47,280 --> 00:04:51,100
+So now we have said, we have said, noting, first of all.
+
+60
+00:04:55,190 --> 00:04:58,700
+Now it's time to save it up, and everything is working fine.
+
+61
+00:04:59,570 --> 00:05:01,010
+It has been completed successfully.
+
+62
+00:05:01,280 --> 00:05:06,530
+Now let's just view it up, so to check that whether everything's going fine or not.
+
+63
+00:05:08,950 --> 00:05:10,660
+So let's move into a browser.
+
+64
+00:05:14,300 --> 00:05:15,950
+So in our browser, if we see that.
+
+65
+00:05:16,790 --> 00:05:21,560
+Okay, let's just hit refresh to get the piece to see whether it's functioning or not.
+
+66
+00:05:22,010 --> 00:05:22,610
+Okay.
+
+67
+00:05:22,770 --> 00:05:23,870
+Everybody's been murdered.
+
+68
+00:05:24,440 --> 00:05:25,090
+Hit refresh.
+
+69
+00:05:29,790 --> 00:05:31,290
+You will see loading.
+
+70
+00:05:31,980 --> 00:05:36,510
+OK, we are seeing a loading, but we do not want to be in the extreme that extreme left.
+
+71
+00:05:36,840 --> 00:05:41,490
+We want to be in the center of the page and it is on extreme left.
+
+72
+00:05:41,910 --> 00:05:47,370
+So let's just move into a indexer ceasefire and make certain changes were there.
+
+73
+00:05:48,990 --> 00:05:49,680
+So now they wait.
+
+74
+00:05:50,640 --> 00:05:51,720
+So now we'll be targeting.
+
+75
+00:05:53,130 --> 00:05:53,970
+Loading screen.
+
+76
+00:05:54,420 --> 00:05:57,920
+So there's one left, no, just not loading.
+
+77
+00:05:58,410 --> 00:06:03,030
+And it should be on centre text, eventually a centre and.
+
+78
+00:06:04,210 --> 00:06:06,680
+Since he had got the chance, let the.
+
+79
+00:06:07,910 --> 00:06:09,860
+Serious property to a title as well as.
+
+80
+00:06:11,380 --> 00:06:15,040
+So deselected was indeed an amazing burden should be around for him.
+
+81
+00:06:16,060 --> 00:06:18,920
+OK, now let's just hit refresh again.
+
+82
+00:06:18,940 --> 00:06:20,220
+OK, now it's in the center.
+
+83
+00:06:20,230 --> 00:06:22,180
+So yes, it's really created a loading screen.
+
+84
+00:06:22,780 --> 00:06:23,710
+Now let's move forward.
+
+85
+00:06:25,130 --> 00:06:28,670
+Now, if we look at another piece of code, the what was left.
+
+86
+00:06:29,270 --> 00:06:32,510
+This is going to show up on their own live episode.
+
+87
+00:06:32,990 --> 00:06:38,120
+Our zero talent, but I can say that I just of blew of this device refresh button.
+
+88
+00:06:38,150 --> 00:06:40,310
+It looks kind of nasty.
+
+89
+00:06:40,810 --> 00:06:46,270
+So to fix this, let's move into our index assess, fail and target.
+
+90
+00:06:46,280 --> 00:06:48,580
+It's class that is button with.
+
+91
+00:06:48,770 --> 00:06:50,840
+Give it the background of excel to and five.
+
+92
+00:06:52,380 --> 00:06:55,740
+And a display of line block.
+
+93
+00:06:59,150 --> 00:07:00,800
+And after this will give it a.
+
+94
+00:07:02,220 --> 00:07:07,030
+Tithing, 0.2 firearm and 0.5 and a radius of 0.5.
+
+95
+00:07:07,740 --> 00:07:09,390
+Let's hit save and you are up.
+
+96
+00:07:10,400 --> 00:07:17,800
+So we can see that it is looking different from before, but again, we'll put up some more gold into
+
+97
+00:07:17,810 --> 00:07:20,230
+our rotate notices so that we can refactor it a bit more.
+
+98
+00:07:20,250 --> 00:07:24,470
+So will your tax transformation of capitalism to catalyze it all the world?
+
+99
+00:07:24,890 --> 00:07:28,650
+And how do you give it a color up hashtag Tribulus?
+
+100
+00:07:28,730 --> 00:07:31,400
+Then that's an invite, but a different shade.
+
+101
+00:07:31,910 --> 00:07:36,280
+And other than this value, add a little spacing of 0.1.
+
+102
+00:07:37,520 --> 00:07:39,680
+No, it's seven review crap.
+
+103
+00:07:40,190 --> 00:07:43,430
+So our text has definitely changed, as well as the colour of our text.
+
+104
+00:07:43,790 --> 00:07:45,920
+Now, because our pointer?
+
+105
+00:07:47,720 --> 00:07:50,560
+And, OK, now if you're holding with it, we can see your point.
+
+106
+00:07:51,050 --> 00:07:54,540
+And then a margin of to and a font size of 1.2.
+
+107
+00:07:59,640 --> 00:08:01,120
+I just hit save and let you add Europe.
+
+108
+00:08:01,690 --> 00:08:04,030
+So this is the button that we were looking for.
+
+109
+00:08:05,090 --> 00:08:09,380
+It is going to refrigerator, but since I have turned off my network, it is not loading any sort of
+
+110
+00:08:09,380 --> 00:08:09,610
+data.
+
+111
+00:08:09,620 --> 00:08:09,820
+No.
